@@ -133,6 +133,8 @@
     <ClCompile Include="Compiler Project.c" />
     <ClCompile Include="core\os_alloc.c" />
     <ClCompile Include="core\test.c" />
+    <ClCompile Include="node.c" />
+    <ClCompile Include="stack.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="alloc\block.h" />
@@ -140,6 +142,8 @@
     <ClInclude Include="alloc\segment.h" />
     <ClInclude Include="core\error.h" />
     <ClInclude Include="core\os_alloc.h" />
+    <ClInclude Include="node.h" />
+    <ClInclude Include="stack.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
